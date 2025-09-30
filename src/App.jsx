@@ -1,8 +1,10 @@
 import React from 'react'
+import '@fontsource/poppins';
+import Header from './components/Header';
 
 const App = () => {
   return (
-    <div>App</div>
+    <Header />
   )
 }
 
