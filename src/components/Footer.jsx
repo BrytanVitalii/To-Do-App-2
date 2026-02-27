@@ -6,7 +6,7 @@ function Footer({ onAddWorkspace, onEdit, isInEditMode }) {
   return (
     <div className='standartBlock font-poppins mt-2 mb-8 sm:mt-4 p-4 rounded-2xl shadow-2xl flex flex-col gap-4 justify-center bg-gray-800'>
         <hr className="border-gray-700 border-t-4" />
-        <div className="grid grid-cols-3 items-center">
+        <div className="flex flex-col items-center justify-center">
             <div></div>
             <div className="footerControls flex justify-center gap-16 sm:gap-4 mb-2">
                 <button 
@@ -22,7 +22,7 @@ function Footer({ onAddWorkspace, onEdit, isInEditMode }) {
                     <FaPlus className="w-4 h-4"/>
                 </button>
             </div>
-            <div className="flex justify-end">
+            <div className="flex">
                 <p className="text-gray-700">Made By Vitalii Brytan</p>
             </div>
         </div>
