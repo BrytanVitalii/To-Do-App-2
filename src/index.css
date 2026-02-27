@@ -20,8 +20,8 @@
 
 @layer components {
   .standartBlock {
+    @apply w-11/12 mx-auto;
     max-width: var(--block-max-width);
-    margin: 0 auto;
   }
 
   body {

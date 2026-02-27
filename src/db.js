@@ -4,7 +4,8 @@ const db = new Dexie('SimpleTodoDB');
 
 db.version(1).stores(
     {
-        workspaces: '++id, workspaceId'
+        workspaces: '++id, name, createdAt, isMain', // & is unique field
+        tasks: '++id, workspaceId, title, description, isCompleted, createdAt, completedAt, order'
     }
 )
 
